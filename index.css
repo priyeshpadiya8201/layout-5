@@ -1,0 +1,85 @@
+a:link, a:visited,a:hover, a:active
+{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+.bgimage
+{
+    /* background-image: url('https://img.freepik.com/free-photo/laptop-wooden-table-hands-man-working-computer_1321-791.jpg?size=626&ext=jpg&ga=GA1.1.1826645722.1676549418&semt=ais');
+    width: 80%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: -0px;
+    background-size: cover; */
+    background-image: url('https://img.freepik.com/free-photo/laptop-wooden-table-hands-man-working-computer_1321-791.jpg?size=626&ext=jpg&ga=GA1.1.1826645722.1676549418&semt=ais');
+    position: absolute;
+     left: 100px;
+     top: 0px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 950px;
+    height: 760px;
+} 
+
+.image_in_contain
+{ 
+    position: absolute;
+    top:0px;
+    right: 500px;
+    left: -110px;
+    background-color: rgba(255, 119, 0, 0.391);
+  color: white;
+  padding-left: 20px;
+  padding-right: 0px;
+  bottom: -100px;
+ 
+}
+.horizontalline1
+{
+    width: 1040px; 
+    height: 10px;
+    background-color:#ffffff;
+}
+.horizontalline2
+{
+    width: 70px; 
+    height: 10px;
+    background-color:#fafafa;
+}
+.icon
+{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+} 
+.vartical_text
+{
+    
+    position: absolute;
+    background-color: rgba(255, 119, 0, 0.391);
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 50px;
+    border: 5px solid white;
+    top:50px;
+}
+.footer_contain
+{
+    position: absolute;
+     left: 10px;
+     top: 520px;
+    z-index: -1;
+    background-color: rgba(0, 255, 255, 0.362);
+    color: white;
+    bottom: -10px;
+    padding: 50px;
+    padding-bottom: 500px;
+    padding-top: 200px;
+}
