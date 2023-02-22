@@ -109,7 +109,7 @@ a:hover::before {
 .footer_contain
 {
     position: absolute;
-     left: -20px;
+     left: -80px;
      right: 0px;
      top: 550px;
     background-color: rgba(0, 255, 255, 0.362);
